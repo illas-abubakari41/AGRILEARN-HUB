@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriLearn Hub - E-Learning Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container nav-container">
+                <div class="logo">
+                    <span class="logo-icon">🌱</span>
+                    <h1>AgriLearn Hub</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#tutorials" class="nav-link">Video Tutorials</a></li>
+                    <li><a href="#schedule" class="nav-link">Training Schedule</a></li>
+                    <li><a href="#meet" class="nav-link">Live Sessions</a></li>
+                    <li><a href="#materials" class="nav-link">Resources</a></li>
+                    <li><a href="#login" class="nav-link login-btn">Login</a></li>
+                </ul>
+                <div class="mobile-menu">☰</div>
+            </div>
+        </nav>
+         <link rel="stylesheet" href="oles.css">
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Empowering Youth & Women in Agriculture</h1>
+                <p>Access comprehensive video tutorials, structured training schedules, and downloadable materials to enhance your agricultural skills and knowledge.</p>
+                <div class="hero-buttons">
+                    <a href="#tutorials" class="btn btn-primary">Start Learning</a>
+                    <a href="#meet" class="btn btn-secondary">Join Live Session</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-visual">
+                    <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Agricultural Training">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">What We Offer</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="feature-icon">🎥</span>
+                    <h3>Video Tutorials</h3>
+                    <p>Step-by-step video guides on modern farming techniques and best practices.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">📅</span>
+                    <h3>Training Schedules</h3>
+                    <p>Structured learning paths and live session timetables with expert trainers.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">📚</span>
+                    <h3>Downloadable Materials</h3>
+                    <p>PDFs, guides, and resources for offline learning and reference.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">👥</span>
+                    <h3>Meet Industry Expects</h3>
+                    <p>Interactive Google Meet sessions with agricultural experts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Tutorials Section -->
+    <section id="tutorials" class="categories">
+        <div class="container">
+            <h2 class="section-title">Video Tutorials</h2>
+            
+            <div class="category-tabs">
+                <div class="category-tab active" data-category="all">All Videos</div>
+                <div class="category-tab" data-category="crops">Crop Production</div>
+                <div class="category-tab" data-category="livestock">Livestock Management</div>
+                <div class="category-tab" data-category="sustainable">Sustainable Farming</div>
+            </div>
+            
+            <div class="videos-grid">
+                <!-- Crop Production Videos -->
+                <div class="video-card" data-category="crops">
+                    <div class="video-player">
+                        <iframe src="https://www.youtube.com/embed/heTxEsrPVdQ" title="Organic Farming Basics" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Organic Farming Basics</h3>
+                        <p>Learn the fundamentals of organic agriculture and sustainable practices.</p>
+                        <div class="video-meta">
+                            <span>25 min</span>
+                            <span>Beginner</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video-card" data-category="crops">
+                    <div class="video-player">
+                        <iframe src="https://www.youtube.com/embed/Nc-vViewSRo" title="Soil Health Management" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Soil Health Management</h3>
+                        <p>Essential techniques for maintaining fertile and sustainable soil.</p>
+                        <div class="video-meta">
+                            <span>30 min</span>
+                            <span>Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Livestock Management Videos -->
+                <div class="video-card" data-category="livestock">
+                    <div class="video-player">
+                        <iframe src="https://www.youtube.com/embed/B4Ppwsr3KKw" title="Poultry Farming" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Poultry Farming Essentials</h3>
+                        <p>Best practices for poultry farming, housing, feeding, and disease prevention.</p>
+                        <div class="video-meta">
+                            <span>35 min</span>
+                            <span>Beginner</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video-card" data-category="livestock">
+                    <div class="video-player">
+                        <iframe src="https://www.youtube.com/embed/lx49vClrvwg" title="Dairy Farming" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Dairy Cattle Management</h3>
+                        <p>Comprehensive guide to dairy farming and milk production optimization.</p>
+                        <div class="video-meta">
+                            <span>40 min</span>
+                            <span>Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sustainable Farming Videos -->
+                <div class="video-card" data-category="sustainable">
+                    <div class="video-player">
+                        <iframe src="https://www.youtube.com/embed/AFjd6DrlwsQ" title="Sustainable Agriculture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Sustainable Agriculture Practices</h3>
+                        <p>Implementing eco-friendly farming methods that protect the environment.</p>
+                        <div class="video-meta">
+                            <span>38 min</span>
+                            <span>Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video-card" data-category="sustainable">
+                    <div class="video-player">
+                        <iframe src="https://www.youtube.com/embed/hwtOdrsMNF4" title="Permaculture Design" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Introduction to Permaculture</h3>
+                        <p>Learn permaculture principles and design sustainable agricultural ecosystems.</p>
+                        <div class="video-meta">
+                            <span>45 min</span>
+                            <span>Advanced</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training Schedule Section -->
+    <section id="schedule" class="schedule">
+        <div class="container">
+            <h2 class="section-title">Training Schedule</h2>
+            <div class="schedule-container">
+                <div class="schedule-nav">
+                    <button class="schedule-btn active">This Week</button>
+                    <button class="schedule-btn">Next Week</button>
+                    <button class="schedule-btn">This Month</button>
+                </div>
+                <div class="schedule-grid">
+                    <div class="session-card">
+                        <div class="session-date">
+                            <span class="day">Mon</span>
+                            <span class="date">15</span>
+                        </div>
+                        <div class="session-info">
+                            <h3>Introduction to Sustainable Farming</h3>
+                            <p>10:00 AM - 12:00 PM (GMT)</p>
+                            <span class="trainer">By: Dr. Sarah Johnson</span>
+                        </div>
+                        <a href="#meet" class="btn btn-primary">Join Session</a>
+                    </div>
+                    <div class="session-card">
+                        <div class="session-date">
+                            <span class="day">Wed</span>
+                            <span class="date">17</span>
+                        </div>
+                        <div class="session-info">
+                            <h3>Women in Agri-Business</h3>
+                            <p>2:00 PM - 4:00 PM (GMT)</p>
+                            <span class="trainer">By: Maria Rodriguez</span>
+                        </div>
+                        <a href="#meet" class="btn btn-primary">Join Session</a>
+                    </div>
+                    <div class="session-card">
+                        <div class="session-date">
+                            <span class="day">Fri</span>
+                            <span class="date">19</span>
+                        </div>
+                        <div class="session-info">
+                            <h3>Youth Farming Initiatives</h3>
+                            <p>11:00 AM - 1:00 PM (GMT)</p>
+                            <span class="trainer">By: James Thompson</span>
+                        </div>
+                        <a href="#meet" class="btn btn-primary">Join Session</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Meet Integration Section -->
+    <section id="meet" class="meet-section">
+        <div class="container meet-container">
+            <h2 class="section-title">Live Training Sessions</h2>
+            <div class="meet-card">
+                <div class="meet-icon">
+                    <i class="fab fa-google"></i>
+                </div>
+                <h3>Join Our Live Google Meet Sessions</h3>
+                <p>Connect with expert trainers and fellow learners in real-time interactive sessions. Ask questions, share experiences, and get personalized guidance.</p>
+                
+                <div class="meet-steps">
+                    <div class="meet-step">
+                        <div class="step-number">1</div>
+                        <h4>Check Schedule</h4>
+                        <p>View upcoming training sessions in the schedule above</p>
+                    </div>
+                    <div class="meet-step">
+                        <div class="step-number">2</div>
+                        <h4>Get Meeting Link</h4>
+                        <p>Registered users receive Google Meet links via email</p>
+                    </div>
+                    <div class="meet-step">
+                        <div class="step-number">3</div>
+                        <h4>Join Session</h4>
+                        <p>Click the join button at session time to connect</p>
+                    </div>
+                </div>
+                
+                <a href="https://meet.google.com/iug-dosf-egj" target="_blank" class="btn btn-primary" style="margin-top: 2rem;">
+                    <i class="fas fa-video"></i> Create Google Meet Session (Trainers)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Downloadable Materials Section -->
+    <section id="materials" class="materials">
+        <div class="container">
+            <h2 class="section-title">Downloadable Resources</h2>
+            <div class="materials-grid">
+                <div class="material-card">
+                    <span class="material-icon">📄</span>
+                    <h3>Organic Farming Guide</h3>
+                    <p>Complete guide to organic farming practices and certification process.</p>
+                    <a href="https://www.fao.org/3/cb6782en/cb6782en.pdf" target="_blank" class="btn btn-outline">Download PDF</a>
+                </div>
+                <div class="material-card">
+                    <span class="material-icon">📄</span>
+                    <h3>Poultry Management Handbook</h3>
+                    <p>Best practices for poultry health, feeding, and production management.</p>
+                    <a href="https://www.fao.org/3/i3531e/i3531e.pdf" target="_blank" class="btn btn-outline">Download PDF</a>
+                </div>
+                <div class="material-card">
+                    <span class="material-icon">📄</span>
+                    <h3>Soil Testing Manual</h3>
+                    <p>Learn how to test and improve your soil quality for better crop yields.</p>
+                    <a href="https://www.fao.org/3/a0100e/a0100e.pdf" target="_blank" class="btn btn-outline">Download PDF</a>
+                </div>
+                <div class="material-card">
+                    <span class="material-icon">📄</span>
+                    <h3>Market Access Strategies</h3>
+                    <p>How to access better markets for your agricultural produce.</p>
+                    <a href="https://www.fao.org/3/i2196e/i2196e.pdf" target="_blank" class="btn btn-outline">Download PDF</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Modal -->
+    <div id="login" class="login-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Login to AgriLearn Hub</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="login-options">
+                    <div class="login-type active" data-type="trainee">
+                        <h3>Trainee Login</h3>
+                        <p>For youth and women learners</p>
+                    </div>
+                    <div class="login-type" data-type="trainer">
+                        <h3>Trainer Login</h3>
+                        <p>For agricultural experts and educators</p>
+                    </div>
+                </div>
+                <form class="login-form">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter your password">
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Login</button>
+                    <div class="form-footer">
+                        <a href="#" class="forgot-password">Forgot Password?</a>
+                        <p>Don't have an account? <a href="#" class="signup-link">Sign up here</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AgriLearn Hub</h3>
+                    <p>Empowering the next generation of farmers through education and technology. Join our community to access quality agricultural training resources.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#tutorials">Video Tutorials</a></li>
+                        <li><a href="#schedule">Training Schedule</a></li>
+                        <li><a href="#meet">Live Sessions</a></li>
+                        <li><a href="#materials">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Email: abubakarikillias41@gmail.com</p>
+                    <p>Phone: +233 546488854</p>
+                    <p>Address: kp-kp-036 kpongu along the wa poly main road</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AgriLearn Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+
+        const categoryTabs = document.querySelectorAll('.category-tab');
+        const videoCards = document.querySelectorAll('.video-card');
+
+        categoryTabs.forEach(tab => {
+            tab.addEventListener('click', function() {
+
+                categoryTabs.forEach(t => t.classList.remove('active'));
+
+                this.classList.add('active');
+                
+                const category = this.getAttribute('data-category');
+                
+                videoCards.forEach(card => {
+                    if (category === 'all' || card.getAttribute('data-category') === category) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        const loginBtn = document.querySelector('.login-btn');
+        const loginModal = document.querySelector('.login-modal');
+        const closeModal = document.querySelector('.close-modal');
+
+        loginBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            loginModal.style.display = 'flex';
+        });
+
+        closeModal.addEventListener('click', function() {
+            loginModal.style.display = 'none';
+        });
+
+        window.addEventListener('click', function(e) {
+            if (e.target === loginModal) {
+                loginModal.style.display = 'none';
+            }
+        });
+
+        const loginTypes = document.querySelectorAll('.login-type');
+        
+        loginTypes.forEach(type => {
+            type.addEventListener('click', function() {
+                loginTypes.forEach(t => t.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        const scheduleBtns = document.querySelectorAll('.schedule-btn');
+        
+        scheduleBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                scheduleBtns.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+            });
+
+        });
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
